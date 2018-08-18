@@ -1,4 +1,3 @@
-
 # app/lib/json_web_token.rb
 class JsonWebToken
   # secret to encode and decode token
@@ -21,4 +20,3 @@ class JsonWebToken
     raise ExceptionHandler::InvalidToken, e.message
   end
 end
-
